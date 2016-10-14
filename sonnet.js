@@ -21,5 +21,9 @@ var newstring = replaceAll(sonnet, ' the ', ' a large ');
 
 // Set the content of the sonnet div with the new string
 
+function changeIt () {
+	var getSonnet = document.getElementById("sonnet");
+	getSonnet.innerHTML = newstring;
+}
 
 
